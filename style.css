@@ -1,0 +1,135 @@
+nav{
+    background-color: whitesmoke;
+    color: purple;
+    padding: 15px;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 55%;
+}
+li{
+    color: black;
+    cursor: pointer;
+}
+li:hover{
+    color: purple;
+}
+.home{
+    width: 100%;
+    height: 400px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bio {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center; /* Aligns image and text vertically */
+    justify-content: flex-start; /* Ensures left alignment */
+    box-sizing: border-box;
+    border: 4px solid purple;
+    text-align: left;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(255, 190, 255); 
+    border-radius: 20px;
+}
+
+.profilepic {
+    width: 130px;
+    height: 220px;
+    border-radius: 10%;
+    border: 2px solid purple;
+    margin-right: 20px;
+}
+
+.bio-content {
+    flex: 1;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: bold;
+    color: purple;
+    margin-bottom: 10px;
+}
+
+.about {
+    background-color: rgb(255, 190, 255);
+    padding: 20px;
+    line-height: 1.5;
+    text-align: left;
+}
+button{
+    background-color: purple;
+    width:160px;
+    height: 40px;
+    color: white;
+}
+.skills {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    margin: 20px auto;
+    height: 300px;
+    background-color: purple;
+    color: white;
+}
+
+.tech{
+    width: 65%;
+    text-align: left; 
+    padding: 50px;
+    margin-left: 90px;
+    padding-left: 100px;
+}
+.list2 {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    font-size: 18px;
+    color: white;
+    padding: 5px 0;
+}
+.heading{
+    color: orchid;
+    text-decoration: underline;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color:  rgb(255, 190, 255);
+}
+.cont{
+    color: purple;
+}
+td{
+    height: 50px;
+    padding: 10px;
+}
+input {
+    padding: 10px;
+    height: 40px;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    /* padding: 5px; */
+}
+nav a:hover{
+    color: purple;
+}
